@@ -1,0 +1,54 @@
+node_modules
+.DS_Store
+# Build outputs
+# Dependency directories
+node_modules/
+.pnp/
+.pnp.js
+
+# Build output
+.next/
+out/
+dist/
+coverage/
+
+# Test output
+coverage/
+*.lcov
+
+# Environment files
+.env
+.env.*
+!.env.example
+
+# IDE/filesystem
+.DS_Store
+.vscode/
+.idea/
+*.swp
+*.swo
+
+# Logs
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+pnpm-debug.log*
+lerna-debug.log*
+
+# OS generated
+Thumbs.db
+
+# Miscellaneous
+.yarn/cache/
+.yarn/unplugged/
+.yarn/build-state.yml
+.yarn/install-state.gz
+.yarn/patches/
+
+# Optional lock files
+yarn.lock
+package-lock.json
+pnpm-lock.yaml
+# End of Selection
+```
+
